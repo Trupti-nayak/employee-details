@@ -36,8 +36,8 @@
 @dynamic tableView;
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    self.navigationController.navigationBar.barTintColor=[UIColor greenColor];
+    [super viewDidLoad];//51, 133, 255
+    self.navigationController.navigationBar.barTintColor=[UIColor colorWithRed: 51/255.0f green:133/255.0f blue:255/255.0f alpha:1.0];
     _allEmployeesArr=[[NSArray alloc]init];
     _nameArray=[[NSMutableArray alloc]init];
     _genderArray=[[NSMutableArray alloc]init];
